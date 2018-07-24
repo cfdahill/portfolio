@@ -20,6 +20,11 @@ h3{
   font-weight: bold;
 }
 
+p{
+  font-size:24px;
+  line-height:1.2;
+}
+
 header{
   text-align:center;
 }
@@ -82,7 +87,6 @@ i{
   color: #0c121a;
   padding: 5px;
   border-radius: 10px;
-  font-size:24px;
   text-align: left;
 }
 
@@ -91,8 +95,40 @@ i{
   position:relative;
 }
 
+.bio{
+  background: #157c84;
+  border-radius: 100px;
+  width: 70vw;
+  min-height:315px;
+  padding-bottom:30px;
+  padding-top:10px;
+}
+
 .me{
   width:200px;
+  transform:rotate(90deg);
+  border:white solid;
+  border-radius: 77px;
+  overflow:hidden;
+}
+
+.bioPara{
+  text-align:justify;
+  line-height:1.5;
+}
+
+.contact{
+  margin-bottom:10px;
+}
+
+footer{
+  margin-top:20px;
+  background: #157c84;
+  width:100vw;
+  text-align:center;
+  height:20px;
+  font-size:12px;
+  padding-top:4px;
 }
 
 @media (min-width: 992px) {
@@ -113,5 +149,48 @@ i{
 
   .projectImage{
     width: 900px;
+  }
+
+  .me{
+    float:left;
+  }
+
+  .bioPara{
+    margin-left:200px;
+    width: 45vw;
+  }
+}
+
+@media (max-width: 991px) {
+  .portfolioContainer{
+    margin-left:3vw;
+    max-width:90vw;
+  }
+
+  .portfolioTitle{
+    width: 90vw;
+  }
+
+  .portTitle{
+    width: 90vw;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .product-item-description{
+    width:90vw;
+  }
+
+  .portPara{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .me{
+    margin:10px;
+  }
+
+  .bioPara{
+    margin: 10px 18px 0px 18px;
   }
 }

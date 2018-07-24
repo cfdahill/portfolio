@@ -1,13 +1,117 @@
 body{
-  background:red;
+  background-image: url("../images/ep_naturalblack.png");
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Oswald', sans-serif;
 }
 
+h1{
+  font-size: 72px;
+  margin-bottom:20px;
+}
+
+h2{
+  font-size: 56px;
+  margin-bottom:20px;
+}
+
+h3{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+header{
+  text-align:center;
+}
+
+.intro{
+  position:relative;
+}
+
+.topImage{
+  width: 90vw;
+  height: 50vh;
+  margin-left: 5vw;
+}
+
+.statement{
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  color: #10151a;
+}
 .container{
   margin:auto;
   margin-top:20px;
-  background:white;
+  text-align:center;
+}
+
+.skills{
+  background: #157c84;
+  border-radius: 123px;
+  width: 50vw;
+  min-height:230px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+
+.icons{
+  line-height:4;
+}
+
+i{
+  font-size:75px;
+  margin: 10px;
+}
+
+.portfolio{
+  position:relative;
+  margin-bottom:50px;
+}
+
+.portTitle{
+  background: #d8d4d4c4;
+  color: #0c121a;
+  padding: 5px;
+  border-radius: 10px;
+  z-index:1;
+}
+
+.portPara{
+  background: #d8d4d4c4;
+  color: #0c121a;
+  padding: 5px;
+  border-radius: 10px;
+  font-size:24px;
+  text-align: left;
 }
 
 .projectImage{
+  width:90vw;
+  position:relative;
+}
+
+.me{
   width:200px;
+}
+
+@media (min-width: 992px) {
+  .rightTitle{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+  }
+
+  .portPara{
+    position: absolute;
+    bottom:-50px;
+  }
+
+  .portfolio{
+    margin-bottom:100px;
+  }
+
+  .projectImage{
+    width: 900px;
+  }
 }

@@ -158,6 +158,7 @@ footer{
   .me{
     float:left;
     width:185px;
+    image-orientation: from-image;
   }
 
   .bioPara{

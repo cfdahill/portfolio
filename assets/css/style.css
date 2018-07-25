@@ -114,7 +114,6 @@ i{
 }
 
 .bioPara{
-  text-align:justify;
   line-height:1.5;
 }
 
@@ -164,6 +163,7 @@ footer{
   .bioPara{
     margin-left:200px;
     margin-right:20px;
+    text-align:justify;
   }
 }
 
@@ -201,11 +201,17 @@ footer{
 
   .bioPara{
     margin: 10px 18px 0px 18px;
+    text-align:justify;
   }
 }
 
 @media (max-width: 562px) {
   .statement{
     top:5vh;
+  }
+
+  .bioPara{
+    text-align:left;
+
   }
 }

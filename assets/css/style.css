@@ -41,9 +41,11 @@ header{
 
 .statement{
   position: absolute;
-  top: 5vh;
   left: 10vw;
   color: #10151a;
+  line-height:1.2;
+  width:80vw;
+
 }
 .container{
   margin:auto;
@@ -133,7 +135,6 @@ footer{
 @media (min-width: 992px) {
   .statement{
     top:20vh;
-    line-height:1.2;
   }
 
   .rightTitle{
@@ -168,8 +169,6 @@ footer{
 
 @media (max-width: 991px) {
   .statement{
-    width:80vw;
-    line-height:1.2;
     top:20vh;
   }
   .portfolioContainer{
@@ -202,5 +201,11 @@ footer{
 
   .bioPara{
     margin: 10px 18px 0px 18px;
+  }
+}
+
+@media (max-width: 562px) {
+  .statement{
+    top:5vh;
   }
 }

@@ -41,7 +41,7 @@ header{
 
 .statement{
   position: absolute;
-  top: 20vh;
+  top: 5vh;
   left: 10vw;
   color: #10151a;
 }
@@ -106,7 +106,6 @@ i{
 
 .me{
   width:200px;
-  transform:rotate(90deg);
   border:white solid;
   border-radius: 77px;
   overflow:hidden;
@@ -132,6 +131,11 @@ footer{
 }
 
 @media (min-width: 992px) {
+  .statement{
+    top:20vh;
+    line-height:1.2;
+  }
+
   .rightTitle{
     position: absolute;
     top: 0px;
@@ -153,6 +157,7 @@ footer{
 
   .me{
     float:left;
+    width:185px;
   }
 
   .bioPara{
@@ -162,6 +167,11 @@ footer{
 }
 
 @media (max-width: 991px) {
+  .statement{
+    width:80vw;
+    line-height:1.2;
+    top:20vh;
+  }
   .portfolioContainer{
     margin-left:3vw;
     max-width:90vw;
